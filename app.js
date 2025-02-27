@@ -5,7 +5,7 @@ const sec =document.getElementById("sec");
 
 const currentYear = new Date().getMonth();
 console.log(currentYear);
-const newYear = new Date(`28 Feb 2025 ${currentYear +1} 00:00:00`);
+const newYear = new Date(`28 Feb 2025 ${currentYear +1} 19:00:00`);
 console.log(newYear);
 
 
